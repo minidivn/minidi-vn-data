@@ -25,12 +25,12 @@
     ],
     "metadata_fields": {
       "birth_date": "ISO birth date",
-      "start_time": "ISO start date",
-      "point_in_time": "ISO date of event",
-      "death_date": "ISO death date",
       "occupation": "Occupation label",
       "coordinates": "Geo: latitude/longitude",
-      "end_time": "ISO end date"
+      "death_date": "ISO death date",
+      "end_time": "ISO end date",
+      "point_in_time": "ISO date of event",
+      "start_time": "ISO start date"
     },
     "attribution": "CC0 — WikiData contributors"
   },

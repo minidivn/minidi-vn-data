@@ -1,5 +1,5 @@
 {
-  "current_partition": "people-royalty",
+  "current_partition": "people-contemporary",
   "completed": [
     "adm-north-provinces",
     "adm-central-provinces",
@@ -33,7 +33,8 @@
     "people-politicians",
     "people-sports",
     "people-business",
-    "people-foreign"
+    "people-foreign",
+    "people-royalty"
   ],
   "remaining": [
     "adm-north-provinces",
@@ -87,6 +88,6 @@
     "nature-caves"
   ],
   "total": 50,
-  "progress": "33/50",
-  "updated_at": "2026-05-30T02:11:02Z"
+  "progress": "34/50",
+  "updated_at": "2026-05-30T02:11:44Z"
 }
