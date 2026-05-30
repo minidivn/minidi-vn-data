@@ -383,7 +383,7 @@ MAP=L.map('map').setView([16.0,107.5],6);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© OpenStreetMap'}).addTo(MAP);
 var colors={place:'#22c55e',person:'#6366f1',event:'#eab308',other:'#64748b'};
 hasCoords.forEach(function(n){var c=n.m.coordinates||n.m.coord;if(!c)return;var m=c.match(/(-?\d+\.?\d*)\s*[,\s]\s*(-?\d+\.?\d*)/);if(!m)return;var lat=parseFloat(m[1]),lng=parseFloat(m[2]);if(isNaN(lat)||isNaN(lng))return;var col=colors[n.t]||'#64748b',emoji=n.t==='place'?'&#x1F4CD;':n.t==='person'?'&#x1F464;':n.t==='event'?'&#x1F4C5;':'&#x1F539;';
-L.circleMarker([lat,lng],{radius:7,color:col,fillColor:col,fillOpacity:.6,weight:2}).addTo(MAP).bindPopup('<b>'+esc(n.l)+'</b>'+(n.lv?'<br>'+esc(n.lv):'')+'<br><span style=color:var(--text2)>'+esc(n.d||'')+'</span><br><a href=# onclick="showD(''+n.id+'')" style=color:var(--a1)>Details &rarr;</a>')});
+var m=L.circleMarker([lat,lng],{radius:7,color:col,fillColor:col,fillOpacity:.6,weight:2});m.addTo(MAP);m.bindPopup('<b>'+esc(n.l)+'</b>'+(n.lv?'<br>'+esc(n.lv):'')+'<br><span style=color:var(--text2)>'+esc(n.d||'')+'</span><br>Details →');m.on('click',function(){showD(n.id)});
 },500)}
 
 // ── Timeline ──
