@@ -49,7 +49,8 @@
     "nature-national-parks",
     "nature-islands",
     "nature-beaches",
-    "nature-caves"
+    "nature-caves",
+    "adm-vn-country"
   ],
   "remaining": [
     "adm-north-provinces",
@@ -103,6 +104,6 @@
     "nature-caves"
   ],
   "total": 50,
-  "progress": "49/50",
-  "updated_at": "2026-05-30T02:13:27Z"
+  "progress": "50/50",
+  "updated_at": "2026-05-30T02:13:54Z"
 }
