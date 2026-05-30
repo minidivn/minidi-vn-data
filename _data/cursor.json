@@ -1,5 +1,5 @@
 {
-  "current_partition": "culture-cuisine",
+  "current_partition": "culture-music",
   "completed": [
     "adm-north-provinces",
     "adm-central-provinces",
@@ -38,7 +38,8 @@
     "people-contemporary",
     "culture-heritage",
     "culture-festivals",
-    "culture-religion"
+    "culture-religion",
+    "culture-cuisine"
   ],
   "remaining": [
     "adm-north-provinces",
@@ -92,6 +93,6 @@
     "nature-caves"
   ],
   "total": 50,
-  "progress": "38/50",
-  "updated_at": "2026-05-30T02:12:20Z"
+  "progress": "39/50",
+  "updated_at": "2026-05-30T02:12:26Z"
 }
