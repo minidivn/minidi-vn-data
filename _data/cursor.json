@@ -1,11 +1,12 @@
 {
-  "current_partition": "adm-hcmc",
+  "current_partition": "adm-danang",
   "completed": [
     "adm-north-provinces",
     "adm-central-provinces",
     "adm-south-provinces",
     "adm-highlands",
-    "adm-hanoi"
+    "adm-hanoi",
+    "adm-hcmc"
   ],
   "remaining": [
     "adm-north-provinces",
@@ -59,6 +60,6 @@
     "nature-caves"
   ],
   "total": 50,
-  "progress": "5/50",
-  "updated_at": "2026-05-30T01:49:12Z"
+  "progress": "6/50",
+  "updated_at": "2026-05-30T01:49:15Z"
 }
