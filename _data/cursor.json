@@ -1,5 +1,5 @@
 {
-  "current_partition": "hist-paleolithic",
+  "current_partition": "hist-hongbang",
   "completed": [
     "adm-north-provinces",
     "adm-central-provinces",
@@ -9,7 +9,8 @@
     "adm-hcmc",
     "adm-danang",
     "adm-haiphong",
-    "adm-cantho"
+    "adm-cantho",
+    "hist-paleolithic"
   ],
   "remaining": [
     "adm-north-provinces",
@@ -63,6 +64,6 @@
     "nature-caves"
   ],
   "total": 50,
-  "progress": "9/50",
-  "updated_at": "2026-05-30T01:49:27Z"
+  "progress": "10/50",
+  "updated_at": "2026-05-30T01:50:13Z"
 }
