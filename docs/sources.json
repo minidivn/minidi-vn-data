@@ -25,12 +25,12 @@
     ],
     "metadata_fields": {
       "end_time": "ISO end date",
-      "death_date": "ISO death date",
-      "start_time": "ISO start date",
-      "point_in_time": "ISO date of event",
       "coordinates": "Geo: latitude/longitude",
+      "death_date": "ISO death date",
       "birth_date": "ISO birth date",
-      "occupation": "Occupation label"
+      "occupation": "Occupation label",
+      "start_time": "ISO start date",
+      "point_in_time": "ISO date of event"
     },
     "attribution": "CC0 — WikiData contributors"
   },
@@ -73,8 +73,8 @@
     ],
     "metadata_fields": {
       "lon": "Longitude",
-      "tags": "OSM key-value tags",
-      "lat": "Latitude"
+      "lat": "Latitude",
+      "tags": "OSM key-value tags"
     },
     "attribution": "ODbL — OpenStreetMap contributors"
   }
