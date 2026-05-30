@@ -1,5 +1,5 @@
 {
-  "current_partition": "people-scientists",
+  "current_partition": "people-artists",
   "completed": [
     "adm-north-provinces",
     "adm-central-provinces",
@@ -24,7 +24,8 @@
     "hist-modern",
     "people-rulers",
     "people-military",
-    "people-writers"
+    "people-writers",
+    "people-scientists"
   ],
   "remaining": [
     "adm-north-provinces",
@@ -78,6 +79,6 @@
     "nature-caves"
   ],
   "total": 50,
-  "progress": "24/50",
-  "updated_at": "2026-05-30T02:04:06Z"
+  "progress": "25/50",
+  "updated_at": "2026-05-30T02:05:22Z"
 }
