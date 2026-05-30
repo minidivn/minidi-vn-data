@@ -1,7 +1,8 @@
 {
-  "current_partition": "adm-central-provinces",
+  "current_partition": "adm-south-provinces",
   "completed": [
-    "adm-north-provinces"
+    "adm-north-provinces",
+    "adm-central-provinces"
   ],
   "remaining": [
     "adm-north-provinces",
@@ -55,6 +56,6 @@
     "nature-caves"
   ],
   "total": 50,
-  "progress": "1/50",
-  "updated_at": "2026-05-30T05:48:40Z"
+  "progress": "2/50",
+  "updated_at": "2026-05-30T01:49:01Z"
 }
