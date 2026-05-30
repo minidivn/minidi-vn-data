@@ -25,12 +25,12 @@
     ],
     "metadata_fields": {
       "start_time": "ISO start date",
-      "end_time": "ISO end date",
-      "occupation": "Occupation label",
       "death_date": "ISO death date",
       "coordinates": "Geo: latitude/longitude",
-      "point_in_time": "ISO date of event",
-      "birth_date": "ISO birth date"
+      "occupation": "Occupation label",
+      "birth_date": "ISO birth date",
+      "end_time": "ISO end date",
+      "point_in_time": "ISO date of event"
     },
     "attribution": "CC0 — WikiData contributors"
   },
@@ -49,8 +49,8 @@
     ],
     "metadata_fields": {
       "page_id": "Numeric Wikipedia page ID",
-      "summary": "First paragraph of article",
-      "url": "Full article URL"
+      "url": "Full article URL",
+      "summary": "First paragraph of article"
     },
     "attribution": "CC-BY-SA — Wikipedia contributors"
   },
