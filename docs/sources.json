@@ -24,13 +24,13 @@
       "P625 (coordinate location)"
     ],
     "metadata_fields": {
-      "end_time": "ISO end date",
-      "occupation": "Occupation label",
       "death_date": "ISO death date",
-      "birth_date": "ISO birth date",
-      "coordinates": "Geo: latitude/longitude",
+      "start_time": "ISO start date",
+      "occupation": "Occupation label",
       "point_in_time": "ISO date of event",
-      "start_time": "ISO start date"
+      "end_time": "ISO end date",
+      "coordinates": "Geo: latitude/longitude",
+      "birth_date": "ISO birth date"
     },
     "attribution": "CC0 — WikiData contributors"
   },
@@ -48,9 +48,9 @@
       "category_member"
     ],
     "metadata_fields": {
+      "summary": "First paragraph of article",
       "page_id": "Numeric Wikipedia page ID",
-      "url": "Full article URL",
-      "summary": "First paragraph of article"
+      "url": "Full article URL"
     },
     "attribution": "CC-BY-SA — Wikipedia contributors"
   },
@@ -72,9 +72,9 @@
       "adjacent_to"
     ],
     "metadata_fields": {
+      "lat": "Latitude",
       "lon": "Longitude",
-      "tags": "OSM key-value tags",
-      "lat": "Latitude"
+      "tags": "OSM key-value tags"
     },
     "attribution": "ODbL — OpenStreetMap contributors"
   }
