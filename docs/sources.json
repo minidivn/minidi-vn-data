@@ -24,13 +24,13 @@
       "P625 (coordinate location)"
     ],
     "metadata_fields": {
-      "start_time": "ISO start date",
       "coordinates": "Geo: latitude/longitude",
       "birth_date": "ISO birth date",
       "point_in_time": "ISO date of event",
-      "death_date": "ISO death date",
+      "start_time": "ISO start date",
       "occupation": "Occupation label",
-      "end_time": "ISO end date"
+      "end_time": "ISO end date",
+      "death_date": "ISO death date"
     },
     "attribution": "CC0 — WikiData contributors"
   },

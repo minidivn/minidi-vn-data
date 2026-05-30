@@ -1,5 +1,5 @@
 {
-  "current_partition": "hist-modern",
+  "current_partition": "people-rulers",
   "completed": [
     "adm-north-provinces",
     "adm-central-provinces",
@@ -20,7 +20,8 @@
     "hist-tay-son",
     "hist-nguyen",
     "hist-colonial",
-    "hist-vn-war"
+    "hist-vn-war",
+    "hist-modern"
   ],
   "remaining": [
     "adm-north-provinces",
@@ -74,6 +75,6 @@
     "nature-caves"
   ],
   "total": 50,
-  "progress": "20/50",
-  "updated_at": "2026-05-30T02:00:10Z"
+  "progress": "21/50",
+  "updated_at": "2026-05-30T02:01:19Z"
 }
