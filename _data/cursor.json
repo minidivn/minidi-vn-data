@@ -1,5 +1,5 @@
 {
-  "current_partition": "hist-tay-son",
+  "current_partition": "hist-nguyen",
   "completed": [
     "adm-north-provinces",
     "adm-central-provinces",
@@ -16,7 +16,8 @@
     "hist-ngo-dinh-le",
     "hist-ly",
     "hist-tran",
-    "hist-le-so"
+    "hist-le-so",
+    "hist-tay-son"
   ],
   "remaining": [
     "adm-north-provinces",
@@ -70,6 +71,6 @@
     "nature-caves"
   ],
   "total": 50,
-  "progress": "16/50",
-  "updated_at": "2026-05-30T01:56:25Z"
+  "progress": "17/50",
+  "updated_at": "2026-05-30T01:57:34Z"
 }
