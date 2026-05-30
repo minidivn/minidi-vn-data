@@ -1,5 +1,5 @@
 {
-  "current_partition": "hist-chinese-dom",
+  "current_partition": "hist-ngo-dinh-le",
   "completed": [
     "adm-north-provinces",
     "adm-central-provinces",
@@ -11,7 +11,8 @@
     "adm-haiphong",
     "adm-cantho",
     "hist-paleolithic",
-    "hist-hongbang"
+    "hist-hongbang",
+    "hist-chinese-dom"
   ],
   "remaining": [
     "adm-north-provinces",
@@ -65,6 +66,6 @@
     "nature-caves"
   ],
   "total": 50,
-  "progress": "11/50",
-  "updated_at": "2026-05-30T01:51:09Z"
+  "progress": "12/50",
+  "updated_at": "2026-05-30T01:52:17Z"
 }
