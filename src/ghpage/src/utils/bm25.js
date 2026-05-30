@@ -1,3 +1,4 @@
+
 /**
  * BM25 ranking function for full-text search.
  */
@@ -10,12 +11,11 @@ export function buildBM25(nodes) {
   const tfs = [];
   const dfs = {};
 
-  // Build term frequencies and document frequencies
   for (let i = 0; i < N; i++) {
     const text = [
       nodes[i].l || "",
       nodes[i].lv || "",
-      nodes[i].d || ""
+      nodes[i].d || "",
     ].join(" ").toLowerCase();
 
     const terms = text.split(/\s+/).filter(t => t.length > 1);
@@ -30,15 +30,12 @@ export function buildBM25(nodes) {
       dfs[term] = (dfs[term] || 0) + 1;
     }
   }
-
   avgdl /= N;
 
-  // Return scoring function
   return function score(query) {
     const queryTerms = query.toLowerCase()
       .split(/\s+/)
       .filter(t => t.length > 1);
-
     const scores = [];
 
     for (let i = 0; i < N; i++) {
@@ -53,18 +50,22 @@ export function buildBM25(nodes) {
         const idf = Math.log(
           (N - (dfs[term] || 0) + 0.5) / ((dfs[term] || 0) + 0.5) + 1
         );
-
         score += idf * (
           (freq * (k1 + 1)) / (freq + k1 * (1 - b + b * (docLen / avgdl)))
         );
       }
-
-      if (score > 0) {
-        scores.push({ index: i, score });
-      }
+      if (score > 0) scores.push({ index: i, score });
     }
 
     scores.sort((a, b) => b.score - a.score);
     return scores;
   };
+}
+
+/**
+ * Simple BM25 for testing — uses label + description.
+ */
+export function search(nodes, query) {
+  const engine = buildBM25(nodes);
+  return engine(query);
 }
