@@ -1,5 +1,5 @@
 {
-  "current_partition": "nature-mountains",
+  "current_partition": "nature-national-parks",
   "completed": [
     "adm-north-provinces",
     "adm-central-provinces",
@@ -44,7 +44,8 @@
     "culture-architecture",
     "culture-clothing",
     "culture-oral",
-    "nature-rivers"
+    "nature-rivers",
+    "nature-mountains"
   ],
   "remaining": [
     "adm-north-provinces",
@@ -98,6 +99,6 @@
     "nature-caves"
   ],
   "total": 50,
-  "progress": "44/50",
-  "updated_at": "2026-05-30T02:12:57Z"
+  "progress": "45/50",
+  "updated_at": "2026-05-30T02:13:04Z"
 }
