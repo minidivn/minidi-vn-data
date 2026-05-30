@@ -1,5 +1,5 @@
 {
-  "current_partition": "people-religion",
+  "current_partition": "people-educators",
   "completed": [
     "adm-north-provinces",
     "adm-central-provinces",
@@ -27,7 +27,8 @@
     "people-writers",
     "people-scientists",
     "people-artists",
-    "people-revolution"
+    "people-revolution",
+    "people-religion"
   ],
   "remaining": [
     "adm-north-provinces",
@@ -81,6 +82,6 @@
     "nature-caves"
   ],
   "total": 50,
-  "progress": "27/50",
-  "updated_at": "2026-05-30T02:06:11Z"
+  "progress": "28/50",
+  "updated_at": "2026-05-30T02:06:54Z"
 }
