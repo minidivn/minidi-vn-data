@@ -1,5 +1,5 @@
 {
-  "current_partition": "culture-heritage",
+  "current_partition": "culture-festivals",
   "completed": [
     "adm-north-provinces",
     "adm-central-provinces",
@@ -35,7 +35,8 @@
     "people-business",
     "people-foreign",
     "people-royalty",
-    "people-contemporary"
+    "people-contemporary",
+    "culture-heritage"
   ],
   "remaining": [
     "adm-north-provinces",
@@ -89,6 +90,6 @@
     "nature-caves"
   ],
   "total": 50,
-  "progress": "35/50",
-  "updated_at": "2026-05-30T02:11:59Z"
+  "progress": "36/50",
+  "updated_at": "2026-05-30T02:12:05Z"
 }
