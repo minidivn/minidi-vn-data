@@ -1,5 +1,5 @@
 {
-  "current_partition": "people-sports",
+  "current_partition": "people-business",
   "completed": [
     "adm-north-provinces",
     "adm-central-provinces",
@@ -30,7 +30,8 @@
     "people-revolution",
     "people-religion",
     "people-educators",
-    "people-politicians"
+    "people-politicians",
+    "people-sports"
   ],
   "remaining": [
     "adm-north-provinces",
@@ -84,6 +85,6 @@
     "nature-caves"
   ],
   "total": 50,
-  "progress": "30/50",
-  "updated_at": "2026-05-30T02:08:17Z"
+  "progress": "31/50",
+  "updated_at": "2026-05-30T02:09:09Z"
 }
