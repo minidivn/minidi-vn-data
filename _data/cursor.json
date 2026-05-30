@@ -1,5 +1,5 @@
 {
-  "current_partition": "nature-caves",
+  "current_partition": "",
   "completed": [
     "adm-north-provinces",
     "adm-central-provinces",
@@ -48,7 +48,8 @@
     "nature-mountains",
     "nature-national-parks",
     "nature-islands",
-    "nature-beaches"
+    "nature-beaches",
+    "nature-caves"
   ],
   "remaining": [
     "adm-north-provinces",
@@ -102,6 +103,6 @@
     "nature-caves"
   ],
   "total": 50,
-  "progress": "48/50",
-  "updated_at": "2026-05-30T02:13:20Z"
+  "progress": "49/50",
+  "updated_at": "2026-05-30T02:13:27Z"
 }
