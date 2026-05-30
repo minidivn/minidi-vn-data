@@ -1,5 +1,5 @@
 {
-  "current_partition": "hist-tran",
+  "current_partition": "hist-le-so",
   "completed": [
     "adm-north-provinces",
     "adm-central-provinces",
@@ -14,7 +14,8 @@
     "hist-hongbang",
     "hist-chinese-dom",
     "hist-ngo-dinh-le",
-    "hist-ly"
+    "hist-ly",
+    "hist-tran"
   ],
   "remaining": [
     "adm-north-provinces",
@@ -68,6 +69,6 @@
     "nature-caves"
   ],
   "total": 50,
-  "progress": "14/50",
-  "updated_at": "2026-05-30T01:54:06Z"
+  "progress": "15/50",
+  "updated_at": "2026-05-30T01:55:16Z"
 }
