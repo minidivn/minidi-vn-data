@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@minidi/minidi-data-ghpage": "github:minidivn/minidi-data-ghpage#v1.0.0",
+    "@minidi/minidi-data-ghpage": "github:minidivn/minidi-data-ghpage#v1.0.1",
     "leaflet": "1.9.4",
     "lit": "^3.2.0"
   },
